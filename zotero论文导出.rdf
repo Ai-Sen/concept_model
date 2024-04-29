@@ -1,0 +1,1907 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <rdf:Description rdf:about="http://arxiv.org/abs/2401.04515">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tikhomirov</foaf:surname>
+                        <foaf:givenName>Mikhail</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Loukachevitch</foaf:surname>
+                        <foaf:givenName>Natalia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_158"/>
+        <link:link rdf:resource="#item_159"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Artificial Intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Exploring Prompt-Based Methods for Zero-Shot Hypernym Prediction with Large Language Models</dc:title>
+        <dcterms:abstract>This article investigates a zero-shot approach to hypernymy prediction using large language models (LLMs). The study employs a method based on text probability calculation, applying it to various generated prompts. The experiments demonstrate a strong correlation between the effectiveness of language model prompts and classic patterns, indicating that preliminary prompt selection can be carried out using smaller models before moving to larger ones. We also explore prompts for predicting co-hyponyms and improving hypernymy predictions by augmenting prompts with additional information through automatically identified co-hyponyms. An iterative approach is developed for predicting higher-level concepts, which further improves the quality on the BLESS dataset (MAP = 0.8).</dcterms:abstract>
+        <dc:date>2024-01-09</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2401.04515</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-31 13:38:38</dcterms:dateSubmitted>
+        <dc:description>arXiv:2401.04515 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2401.04515</dc:identifier>
+        <prism:number>arXiv:2401.04515</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_158">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2401.04515.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-31 13:38:39</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_159">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2401.04515</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-31 13:38:47</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/1806.03191">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Roller</foaf:surname>
+                        <foaf:givenName>Stephen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kiela</foaf:surname>
+                        <foaf:givenName>Douwe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nickel</foaf:surname>
+                        <foaf:givenName>Maximilian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_162"/>
+        <link:link rdf:resource="#item_163"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Hearst Patterns Revisited: Automatic Hypernym Detection from Large Text Corpora</dc:title>
+        <dcterms:abstract>Methods for unsupervised hypernym detection may broadly be categorized according to two paradigms: pattern-based and distributional methods. In this paper, we study the performance of both approaches on several hypernymy tasks and find that simple pattern-based methods consistently outperform distributional methods on common benchmark datasets. Our results show that pattern-based models provide important contextual constraints which are not yet captured in distributional methods.</dcterms:abstract>
+        <dc:date>2018-06-08</dc:date>
+        <z:shortTitle>Hearst Patterns Revisited</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1806.03191</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-31 13:45:38</dcterms:dateSubmitted>
+        <dc:description>arXiv:1806.03191 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.1806.03191</dc:identifier>
+        <prism:number>arXiv:1806.03191</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_162">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/1806.03191.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-31 13:45:40</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_163">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1806.03191</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-31 13:45:45</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://link.springer.com/chapter/10.1007/978-3-030-45439-5_9">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_166"/>
+        <dc:title>Patch-Based Identification of Lexical Semantic Relations | SpringerLink</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/chapter/10.1007/978-3-030-45439-5_9</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:25:42</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_166">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Patch-Based Identification of Lexical Semantic Relations | SpringerLink</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/chapter/10.1007/978-3-030-45439-5_9</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:25:51</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-3-030-45439-5">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-3-030-45439-5</dc:identifier>
+                <dc:title>Advances in Information Retrieval</dc:title>
+                <dc:identifier>DOI 10.1007/978-3-030-45439-5_9</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cham</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer International Publishing</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bannour</foaf:surname>
+                        <foaf:givenName>Nesrine</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dias</foaf:surname>
+                        <foaf:givenName>Gaël</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chahir</foaf:surname>
+                        <foaf:givenName>Youssef</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Akhmouch</foaf:surname>
+                        <foaf:givenName>Houssam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jose</foaf:surname>
+                        <foaf:givenName>Joemon M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yilmaz</foaf:surname>
+                        <foaf:givenName>Emine</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Magalhães</foaf:surname>
+                        <foaf:givenName>João</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Castells</foaf:surname>
+                        <foaf:givenName>Pablo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ferro</foaf:surname>
+                        <foaf:givenName>Nicola</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Silva</foaf:surname>
+                        <foaf:givenName>Mário J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Martins</foaf:surname>
+                        <foaf:givenName>Flávio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_167"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Attention mechanism</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Multi-task learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>PageRank</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Patches</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Patch-Based Identification of Lexical Semantic Relations</dc:title>
+        <dcterms:abstract>The identification of lexical semantic relations is of the utmost importance to enhance reasoning capacities of Natural Language Processing and Information Retrieval systems. Within this context, successful results have been achieved based on the distributional hypothesis and/or the paradigmatic assumption. However, both strategies solely rely on the input words to predict the lexical semantic relation. In this paper, we make the hypothesis that the decision process should not only rely on the input words but also on their K closest neighbors in some semantic space. For that purpose, we present different binary and multi-task classification strategies that include two distinct attention mechanisms based on PageRank. Evaluation results over four gold-standard datasets show that average improvements of 10.6% for binary and 8% for multi-task classification can be achieved over baseline approaches in terms of F$$_1$$. The code and the datasets are available upon demand.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <bib:pages>126-140</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_167">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007%2F978-3-030-45439-5_9.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:25:53</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://aclanthology.org/P19-1327">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics</dc:title>
+                <dc:identifier>DOI 10.18653/v1/P19-1327</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Florence, Italy</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Held</foaf:surname>
+                        <foaf:givenName>William</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Habash</foaf:surname>
+                        <foaf:givenName>Nizar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Korhonen</foaf:surname>
+                        <foaf:givenName>Anna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Traum</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Màrquez</foaf:surname>
+                        <foaf:givenName>Lluís</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_169"/>
+        <dc:title>The Effectiveness of Simple Hybrid Systems for Hypernym Discovery</dc:title>
+        <dcterms:abstract>Hypernymy modeling has largely been separated according to two paradigms, pattern-based methods and distributional methods. However, recent works utilizing a mix of these strategies have yielded state-of-the-art results. This paper evaluates the contribution of both paradigms to hybrid success by evaluating the benefits of hybrid treatment of baseline models from each paradigm. Even with a simple methodology for each individual system, utilizing a hybrid approach establishes new state-of-the-art results on two domain-specific English hypernym discovery tasks and outperforms all non-hybrid approaches in a general English hypernym discovery task.</dcterms:abstract>
+        <dc:date>2019-07</dc:date>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://aclanthology.org/P19-1327</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:29:00</dcterms:dateSubmitted>
+        <bib:pages>3362–3367</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>ACL 2019</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_169">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://aclanthology.org/P19-1327.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:29:02</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/1902.00913">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Le</foaf:surname>
+                        <foaf:givenName>Matt</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Roller</foaf:surname>
+                        <foaf:givenName>Stephen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Papaxanthos</foaf:surname>
+                        <foaf:givenName>Laetitia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kiela</foaf:surname>
+                        <foaf:givenName>Douwe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nickel</foaf:surname>
+                        <foaf:givenName>Maximilian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_171"/>
+        <link:link rdf:resource="#item_172"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Inferring Concept Hierarchies from Text Corpora via Hyperbolic Embeddings</dc:title>
+        <dcterms:abstract>We consider the task of inferring is-a relationships from large text corpora. For this purpose, we propose a new method combining hyperbolic embeddings and Hearst patterns. This approach allows us to set appropriate constraints for inferring concept hierarchies from distributional contexts while also being able to predict missing is-a relationships and to correct wrong extractions. Moreover -- and in contrast with other methods -- the hierarchical nature of hyperbolic space allows us to learn highly efficient representations and to improve the taxonomic consistency of the inferred hierarchies. Experimentally, we show that our approach achieves state-of-the-art performance on several commonly-used benchmarks.</dcterms:abstract>
+        <dc:date>2019-02-03</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1902.00913</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:30:25</dcterms:dateSubmitted>
+        <dc:description>arXiv:1902.00913 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.1902.00913</dc:identifier>
+        <prism:number>arXiv:1902.00913</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_171">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/1902.00913.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:30:30</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_172">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1902.00913</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:30:35</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://aclanthology.org/2020.acl-main.334">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics</dc:title>
+                <dc:identifier>DOI 10.18653/v1/2020.acl-main.334</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Online</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Chengyu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>He</foaf:surname>
+                        <foaf:givenName>Xiaofeng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jurafsky</foaf:surname>
+                        <foaf:givenName>Dan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chai</foaf:surname>
+                        <foaf:givenName>Joyce</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schluter</foaf:surname>
+                        <foaf:givenName>Natalie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tetreault</foaf:surname>
+                        <foaf:givenName>Joel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_174"/>
+        <dc:title>BiRRE: Learning Bidirectional Residual Relation Embeddings for Supervised Hypernymy Detection</dc:title>
+        <dcterms:abstract>The hypernymy detection task has been addressed under various frameworks. Previously, the design of unsupervised hypernymy scores has been extensively studied. In contrast, supervised classifiers, especially distributional models, leverage the global contexts of terms to make predictions, but are more likely to suffer from “lexical memorization”. In this work, we revisit supervised distributional models for hypernymy detection. Rather than taking embeddings of two terms as classification inputs, we introduce a representation learning framework named Bidirectional Residual Relation Embeddings (BiRRE). In this model, a term pair is represented by a BiRRE vector as features for hypernymy classification, which models the possibility of a term being mapped to another in the embedding space by hypernymy relations. A Latent Projection Model with Negative Regularization (LPMNR) is proposed to simulate how hypernyms and hyponyms are generated by neural language models, and to generate BiRRE vectors based on bidirectional residuals of projections. Experiments verify BiRRE outperforms strong baselines over various evaluation frameworks.</dcterms:abstract>
+        <dc:date>2020-07</dc:date>
+        <z:shortTitle>BiRRE</z:shortTitle>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://aclanthology.org/2020.acl-main.334</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:32:23</dcterms:dateSubmitted>
+        <bib:pages>3630–3640</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>ACL 2020</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_174">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2020.acl-main.334.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:32:25</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ojs.aaai.org/index.php/AAAI/article/view/6504">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2374-3468"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Xiao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dou</foaf:surname>
+                        <foaf:givenName>Dejing</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Ji</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_176"/>
+        <dc:title>Learning Conceptual-Contextual Embeddings for Medical Text</dc:title>
+        <dcterms:abstract>External knowledge is often useful for natural language understanding tasks. We introduce a contextual text representation model called Conceptual-Contextual (CC) embeddings, which incorporates structured knowledge into text representations. Unlike entity embedding methods, our approach encodes a knowledge graph into a context model. CC embeddings can be easily reused for a wide range of tasks in a similar fashion to pre-trained language models. Our model effectively encodes the huge UMLS database by leveraging semantic generalizability. Experiments on electronic health records (EHRs) and medical text processing benchmarks showed our model gives a major boost to the performance of supervised medical NLP tasks.</dcterms:abstract>
+        <dc:date>2020-04-03</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>ojs.aaai.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ojs.aaai.org/index.php/AAAI/article/view/6504</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:34:44</dcterms:dateSubmitted>
+        <dc:rights>Copyright (c) 2020 Association for the Advancement of Artificial Intelligence</dc:rights>
+        <dc:description>Number: 05</dc:description>
+        <bib:pages>9579-9586</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2374-3468">
+        <prism:volume>34</prism:volume>
+        <dc:title>Proceedings of the AAAI Conference on Artificial Intelligence</dc:title>
+        <dc:identifier>DOI 10.1609/aaai.v34i05.6504</dc:identifier>
+        <prism:number>05</prism:number>
+        <dc:identifier>ISSN 2374-3468</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_176">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ojs.aaai.org/index.php/AAAI/article/download/6504/6360</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:34:46</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://proceedings.mlr.press/v80/nickel18a.html">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Proceedings of the 35th International Conference on Machine Learning</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>PMLR</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nickel</foaf:surname>
+                        <foaf:givenName>Maximillian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kiela</foaf:surname>
+                        <foaf:givenName>Douwe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_178"/>
+        <dc:title>Learning Continuous Hierarchies in the Lorentz Model of Hyperbolic Geometry</dc:title>
+        <dcterms:abstract>We are concerned with the discovery of hierarchical relationships from large-scale unstructured similarity scores. For this purpose, we study different models of hyperbolic space and find that learning embeddings in the Lorentz model is substantially more efficient than in the Poincar{é}-ball model. We show that the proposed approach allows us to learn high-quality embeddings of large taxonomies which yield improvements over Poincar{é} embeddings, especially in low dimensions. Lastly, we apply our model to discover hierarchies in two real-world datasets: we show that an embedding in hyperbolic space can reveal important aspects of a company’s organizational structure as well as reveal historical relationships between language families.</dcterms:abstract>
+        <dc:date>2018-07-03</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>proceedings.mlr.press</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://proceedings.mlr.press/v80/nickel18a.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:36:22</dcterms:dateSubmitted>
+        <dc:description>ISSN: 2640-3498</dc:description>
+        <bib:pages>3779-3788</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+               <dc:title>International Conference on Machine Learning</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_178">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://proceedings.mlr.press/v80/nickel18a/nickel18a.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:36:23</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/1710.00880">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chang</foaf:surname>
+                        <foaf:givenName>Haw-Shiuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>ZiYun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vilnis</foaf:surname>
+                        <foaf:givenName>Luke</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McCallum</foaf:surname>
+                        <foaf:givenName>Andrew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_181"/>
+        <link:link rdf:resource="#item_182"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Distributional Inclusion Vector Embedding for Unsupervised Hypernymy Detection</dc:title>
+        <dcterms:abstract>Modeling hypernymy, such as poodle is-a dog, is an important generalization aid to many NLP tasks, such as entailment, coreference, relation extraction, and question answering. Supervised learning from labeled hypernym sources, such as WordNet, limits the coverage of these models, which can be addressed by learning hypernyms from unlabeled text. Existing unsupervised methods either do not scale to large vocabularies or yield unacceptably poor accuracy. This paper introduces distributional inclusion vector embedding (DIVE), a simple-to-implement unsupervised method of hypernym discovery via per-word non-negative vector embeddings which preserve the inclusion property of word contexts in a low-dimensional and interpretable space. In experimental evaluations more comprehensive than any previous literature of which we are aware-evaluating on 11 datasets using multiple existing as well as newly proposed scoring functions-we find that our method provides up to double the precision of previous unsupervised embeddings, and the highest average performance, using a much more compact word representation, and yielding many new state-of-the-art results.</dcterms:abstract>
+        <dc:date>2018-05-29</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1710.00880</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:38:47</dcterms:dateSubmitted>
+        <dc:description>arXiv:1710.00880 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.1710.00880</dc:identifier>
+        <prism:number>arXiv:1710.00880</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_181">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/1710.00880.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:38:49</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_182">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1710.00880</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:38:54</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/1612.04460">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shwartz</foaf:surname>
+                        <foaf:givenName>Vered</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Santus</foaf:surname>
+                        <foaf:givenName>Enrico</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schlechtweg</foaf:surname>
+                        <foaf:givenName>Dominik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_185"/>
+        <link:link rdf:resource="#item_186"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Hypernyms under Siege: Linguistically-motivated Artillery for Hypernymy Detection</dc:title>
+        <dcterms:abstract>The fundamental role of hypernymy in NLP has motivated the development of many methods for the automatic identification of this relation, most of which rely on word distribution. We investigate an extensive number of such unsupervised measures, using several distributional semantic models that differ by context type and feature weighting. We analyze the performance of the different methods based on their linguistic motivation. Comparison to the state-of-the-art supervised methods shows that while supervised methods generally outperform the unsupervised ones, the former are sensitive to the distribution of training instances, hurting their reliability. Being based on general linguistic hypotheses and independent from training data, unsupervised measures are more robust, and therefore are still useful artillery for hypernymy detection.</dcterms:abstract>
+        <dc:date>2017-01-08</dc:date>
+        <z:shortTitle>Hypernyms under Siege</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1612.04460</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:41:16</dcterms:dateSubmitted>
+        <dc:description>arXiv:1612.04460 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.1612.04460</dc:identifier>
+        <prism:number>arXiv:1612.04460</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_185">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/1612.04460.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:41:18</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_186">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1612.04460</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 05:41:24</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2010.04941">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yu</foaf:surname>
+                        <foaf:givenName>Changlong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Han</foaf:surname>
+                        <foaf:givenName>Jialong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Peifeng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Song</foaf:surname>
+                        <foaf:givenName>Yangqiu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Hongming</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ng</foaf:surname>
+                        <foaf:givenName>Wilfred</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shi</foaf:surname>
+                        <foaf:givenName>Shuming</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_193"/>
+        <link:link rdf:resource="#item_195"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>When Hearst Is not Enough: Improving Hypernymy Detection from Corpus with Distributional Models</dc:title>
+        <dcterms:abstract>We address hypernymy detection, i.e., whether an is-a relationship exists between words (x, y), with the help of large textual corpora. Most conventional approaches to this task have been categorized to be either pattern-based or distributional. Recent studies suggest that pattern-based ones are superior, if large-scale Hearst pairs are extracted and fed, with the sparsity of unseen (x, y) pairs relieved. However, they become invalid in some specific sparsity cases, where x or y is not involved in any pattern. For the first time, this paper quantifies the non-negligible existence of those specific cases. We also demonstrate that distributional methods are ideal to make up for pattern-based ones in such cases. We devise a complementary framework, under which a pattern-based and a distributional model collaborate seamlessly in cases which they each prefer. On several benchmark datasets, our framework achieves competitive improvements and the case study shows its better interpretability.</dcterms:abstract>
+        <dc:date>2020-10-10</dc:date>
+        <z:shortTitle>When Hearst Is not Enough</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2010.04941</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 10:43:11</dcterms:dateSubmitted>
+        <dc:description>arXiv:2010.04941 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2010.04941</dc:identifier>
+        <prism:number>arXiv:2010.04941</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_193">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2010.04941.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 10:43:15</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_195">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2010.04941</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 10:43:22</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-4503-6976-3">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>CIKM '19</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>ISBN 978-1-4503-6976-3</dc:identifier>
+                <dc:title>Proceedings of the 28th ACM International Conference on Information and Knowledge Management</dc:title>
+                <dc:identifier>DOI 10.1145/3357384.3357866</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shi</foaf:surname>
+                        <foaf:givenName>Yu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shen</foaf:surname>
+                        <foaf:givenName>Jiaming</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Yuchen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Naijing</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>He</foaf:surname>
+                        <foaf:givenName>Xinwei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lou</foaf:surname>
+                        <foaf:givenName>Zhengzhi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhu</foaf:surname>
+                        <foaf:givenName>Qi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Walker</foaf:surname>
+                        <foaf:givenName>Matthew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kim</foaf:surname>
+                        <foaf:givenName>Myunghwan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Han</foaf:surname>
+                        <foaf:givenName>Jiawei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_198"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>distributional inclusion hypothesis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>heterogeneous information network</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>hypernymy discovery</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>text-rich network</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Discovering Hypernymy in Text-Rich Heterogeneous Information Network by Exploiting Context Granularity</dc:title>
+        <dcterms:abstract>Text-rich heterogeneous information networks (text-rich HINs) are ubiquitous in real-world applications. Hypernymy, also known as is-a relation or subclass-of relation, lays in the core of many knowledge graphs and benefits many downstream applications. Existing methods of hypernymy discovery either leverage textual patterns to extract explicitly mentioned hypernym-hyponym pairs, or learn a distributional representation for each term of interest based its context. These approaches rely on statistical signals from the textual corpus, and their effectiveness would therefore be hindered when the signals from the corpus are not sufficient for all terms of interest. In this work, we propose to discover hypernymy in text-rich HINs, which can introduce additional high-quality signals. We develop a new framework, named HyperMine, that exploits multi-granular contexts and combines signals from both text and network without human labeled data. HyperMine extends the definition of &quot;context&quot; to the scenario of text-rich HIN. For example, we can define typed nodes and communities as contexts. These contexts encode signals of different granularities and we feed them into a hypernymy inference model. HyperMine learns this model using weak supervision acquired based on high-precision textual patterns. Extensive experiments on two large real-world datasets demonstrate the effectiveness of HyperMine and the utility of modeling context granularity. We further show a case study that a high-quality taxonomy can be generated solely based on the hypernymy discovered by HyperMine.</dcterms:abstract>
+        <dc:date>十一月 3, 2019</dc:date>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3357384.3357866</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01</dcterms:dateSubmitted>
+        <bib:pages>599–608</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_198">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3357384.3357866</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-01 14:04:55</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://aclanthology.org/2023.findings-ijcnlp.12">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Findings of the Association for Computational Linguistics: IJCNLP-AACL 2023 (Findings)</dc:title>
+                <dc:identifier>DOI 10.18653/v1/2023.findings-ijcnlp.12</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Nusa Dua, Bali</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nikishina</foaf:surname>
+                        <foaf:givenName>Irina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chernomorchenko</foaf:surname>
+                        <foaf:givenName>Polina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Demidova</foaf:surname>
+                        <foaf:givenName>Anastasiia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Panchenko</foaf:surname>
+                        <foaf:givenName>Alexander</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Biemann</foaf:surname>
+                        <foaf:givenName>Chris</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Park</foaf:surname>
+                        <foaf:givenName>Jong C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Arase</foaf:surname>
+                        <foaf:givenName>Yuki</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hu</foaf:surname>
+                        <foaf:givenName>Baotian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lu</foaf:surname>
+                        <foaf:givenName>Wei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wijaya</foaf:surname>
+                        <foaf:givenName>Derry</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Purwarianti</foaf:surname>
+                        <foaf:givenName>Ayu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Krisnadhi</foaf:surname>
+                        <foaf:givenName>Adila Alfa</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_212"/>
+        <dc:title>Predicting Terms in IS-A Relations with Pre-trained Transformers</dc:title>
+        <dc:date>2023-11</dc:date>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2023.findings-ijcnlp.12</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-25 11:36:30</dcterms:dateSubmitted>
+        <bib:pages>134–148</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>Findings 2023</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_212">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2023.findings-ijcnlp.12.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-25 11:36:32</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://kns.cnki.net/kcms2/article/abstract?v=Xhw-7KfLOFnzazGuDYE3tUMlObNiXraABlq3vkw8L6wE66q7Uixo16ptIBow1m2o5lL7yEBVozZWxMaNvSf8uvdwxEex9SAFt4Z91Jvev9IZi-5lynCUag==&amp;uniplatform=NZKPT">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_214"/>
+        <dc:title>一种面向道路交通法学领域的概念体系自动构建方法 - 中国知网</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://kns.cnki.net/kcms2/article/abstract?v=Xhw-7KfLOFnzazGuDYE3tUMlObNiXraABlq3vkw8L6wE66q7Uixo16ptIBow1m2o5lL7yEBVozZWxMaNvSf8uvdwxEex9SAFt4Z91Jvev9IZi-5lynCUag==&amp;uniplatform=NZKPT</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-25 11:38:16</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_214">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>一种面向道路交通法学领域的概念体系自动构建方法 - 中国知网</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://kns.cnki.net/kcms2/article/abstract?v=Xhw-7KfLOFnzazGuDYE3tUMlObNiXraABlq3vkw8L6wE66q7Uixo16ptIBow1m2o5lL7yEBVozZWxMaNvSf8uvdwxEex9SAFt4Z91Jvev9IZi-5lynCUag==&amp;uniplatform=NZKPT</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-25 11:38:22</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2401.11374">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>He</foaf:surname>
+                        <foaf:givenName>Yuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yuan</foaf:surname>
+                        <foaf:givenName>Zhangdie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Jiaoyan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Horrocks</foaf:surname>
+                        <foaf:givenName>Ian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_216"/>
+        <link:link rdf:resource="#item_217"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Artificial Intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Language Models as Hierarchy Encoders</dc:title>
+        <dcterms:abstract>Interpreting hierarchical structures latent in language is a key limitation of current language models (LMs). While previous research has implicitly leveraged these hierarchies to enhance LMs, approaches for their explicit encoding are yet to be explored. To address this, we introduce a novel approach to re-train transformer encoder-based LMs as Hierarchy Transformer encoders (HiTs), harnessing the expansive nature of hyperbolic space. Our method situates the output embedding space of pre-trained LMs within a Poincar\'e ball with a curvature that adapts to the embedding dimension, followed by re-training on hyperbolic cluster and centripetal losses. These losses are designed to effectively cluster related entities (input as texts) and organise them hierarchically. We evaluate HiTs against pre-trained and fine-tuned LMs, focusing on their capabilities in simulating transitive inference, predicting subsumptions, and transferring knowledge across hierarchies. The results demonstrate that HiTs consistently outperform both pre-trained and fine-tuned LMs in these tasks, underscoring the effectiveness and transferability of our re-trained hierarchy encoders.</dcterms:abstract>
+        <dc:date>2024-01-20</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2401.11374</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-25 12:47:19</dcterms:dateSubmitted>
+        <dc:description>arXiv:2401.11374 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2401.11374</dc:identifier>
+        <prism:number>arXiv:2401.11374</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_216">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2401.11374.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-25 12:47:25</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_217">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2401.11374</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-25 12:47:32</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://aclweb.org/anthology/S18-1115">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Proceedings of The 12th International Workshop on Semantic Evaluation</dc:title>
+                <dc:identifier>DOI 10.18653/v1/S18-1115</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New Orleans, Louisiana</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Camacho-Collados</foaf:surname>
+                        <foaf:givenName>Jose</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Delli Bovi</foaf:surname>
+                        <foaf:givenName>Claudio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Espinosa Anke</foaf:surname>
+                        <foaf:givenName>Luis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oramas</foaf:surname>
+                        <foaf:givenName>Sergio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pasini</foaf:surname>
+                        <foaf:givenName>Tommaso</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Santus</foaf:surname>
+                        <foaf:givenName>Enrico</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shwartz</foaf:surname>
+                        <foaf:givenName>Vered</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Navigli</foaf:surname>
+                        <foaf:givenName>Roberto</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Saggion</foaf:surname>
+                        <foaf:givenName>Horacio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_218"/>
+        <dc:title>SemEval-2018 Task 9: Hypernym Discovery</dc:title>
+        <dcterms:abstract>Large Language Models (LLMs) have demonstrated their superior comprehension and expressiveness across a wide range of tasks, and exhibited remarkable capabilities in real-world applications. Hence, it is crucial to investigate their potential and limitations for trustworthy performance in both academia and industry. In this paper, we focus on exploring LLMs’ ability to understand concepts, especially abstract and concrete ones. To this end, we construct a WordNet-based dataset containing a subset for abstract concepts and a subset for concrete concepts. We select six pre-trained LLMs and conduct a classic NLP task, hypernym discovery, as evidence of LLMs’ comprehension ability in understanding concepts. The experimental results suggest that the LLM’s understanding of abstract concepts is significantly weaker than that of concrete concepts.</dcterms:abstract>
+        <dc:date>2018</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>SemEval-2018 Task 9</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://aclweb.org/anthology/S18-1115</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-25 12:59:11</dcterms:dateSubmitted>
+        <bib:pages>712-724</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>Proceedings of The 12th International Workshop on Semantic Evaluation</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_218">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Camacho-Collados 等 - 2018 - SemEval-2018 Task 9 Hypernym Discovery.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://openreview.net/pdf?id=losgEaOWIL7</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-25 12:59:02</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/1810.10566">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhu</foaf:surname>
+                        <foaf:givenName>Henghui</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paschalidis</foaf:surname>
+                        <foaf:givenName>Ioannis Ch</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tahmasebi</foaf:surname>
+                        <foaf:givenName>Amir</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_225"/>
+        <link:link rdf:resource="#item_226"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Clinical Concept Extraction with Contextual Word Embedding</dc:title>
+        <dcterms:abstract>Automatic extraction of clinical concepts is an essential step for turning the unstructured data within a clinical note into structured and actionable information. In this work, we propose a clinical concept extraction model for automatic annotation of clinical problems, treatments, and tests in clinical notes utilizing domain-specific contextual word embedding. A contextual word embedding model is first trained on a corpus with a mixture of clinical reports and relevant Wikipedia pages in the clinical domain. Next, a bidirectional LSTM-CRF model is trained for clinical concept extraction using the contextual word embedding model. We tested our proposed model on the I2B2 2010 challenge dataset. Our proposed model achieved the best performance among reported baseline models and outperformed the state-of-the-art models by 3.4% in terms of F1-score.</dcterms:abstract>
+        <dc:date>2018-11-26</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1810.10566</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 04:25:06</dcterms:dateSubmitted>
+        <dc:description>arXiv:1810.10566 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.1810.10566</dc:identifier>
+        <prism:number>arXiv:1810.10566</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_225">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/1810.10566.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 04:25:08</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_226">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1810.10566</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 04:25:14</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://proceedings.neurips.cc/paper_files/paper/2023/hash/abf3682c9cf9245a0294a4bebe4544ff-Abstract-Conference.html">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>36</prism:volume>
+                <dc:title>Advances in Neural Information Processing Systems</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fel</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Boutin</foaf:surname>
+                        <foaf:givenName>Victor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Béthune</foaf:surname>
+                        <foaf:givenName>Louis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cadene</foaf:surname>
+                        <foaf:givenName>Remi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moayeri</foaf:surname>
+                        <foaf:givenName>Mazda</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Andéol</foaf:surname>
+                        <foaf:givenName>Léo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chalvidal</foaf:surname>
+                        <foaf:givenName>Mathieu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Serre</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_230"/>
+        <link:link rdf:resource="#item_228"/>
+        <dc:title>A Holistic Approach to Unifying Automatic Concept Extraction and Concept Importance Estimation</dc:title>
+        <dc:date>2023-12-15</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>proceedings.neurips.cc</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://proceedings.neurips.cc/paper_files/paper/2023/hash/abf3682c9cf9245a0294a4bebe4544ff-Abstract-Conference.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 04:30:19</dcterms:dateSubmitted>
+        <bib:pages>54805-54818</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_230">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>全文</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://proceedings.neurips.cc/paper_files/paper/2023/file/abf3682c9cf9245a0294a4bebe4544ff-Paper-Conference.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 04:30:49</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_228">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://proceedings.neurips.cc/paper_files/paper/2023/file/abf3682c9cf9245a0294a4bebe4544ff-Paper-Conference.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 04:30:32</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_229">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>36</prism:volume>
+                <dc:title>Advances in Neural Information Processing Systems</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fel</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Boutin</foaf:surname>
+                        <foaf:givenName>Victor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Béthune</foaf:surname>
+                        <foaf:givenName>Louis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cadene</foaf:surname>
+                        <foaf:givenName>Remi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moayeri</foaf:surname>
+                        <foaf:givenName>Mazda</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Andéol</foaf:surname>
+                        <foaf:givenName>Léo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chalvidal</foaf:surname>
+                        <foaf:givenName>Mathieu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Serre</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_231"/>
+        <dc:title>A Holistic Approach to Unifying Automatic Concept Extraction and Concept Importance Estimation</dc:title>
+        <dc:date>2023-12-15</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>proceedings.neurips.cc</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://proceedings.neurips.cc/paper_files/paper/2023/hash/abf3682c9cf9245a0294a4bebe4544ff-Abstract-Conference.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 04:30:44</dcterms:dateSubmitted>
+        <bib:pages>54805-54818</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_231">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://proceedings.neurips.cc/paper_files/paper/2023/file/abf3682c9cf9245a0294a4bebe4544ff-Paper-Conference.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 04:31:28</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_232">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>abf3682c9cf9245a0294a4bebe4544ff-Paper-Conference.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://proceedings.neurips.cc/paper_files/paper/2023/file/abf3682c9cf9245a0294a4bebe4544ff-Paper-Conference.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 04:31:50</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-3-030-61244-3">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-3-030-61244-3</dc:identifier>
+                <dc:title>Knowledge Engineering and Knowledge Management</dc:title>
+                <dc:identifier>DOI 10.1007/978-3-030-61244-3_8</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cham</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer International Publishing</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shvets</foaf:surname>
+                        <foaf:givenName>Alexander</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wanner</foaf:surname>
+                        <foaf:givenName>Leo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Keet</foaf:surname>
+                        <foaf:givenName>C. Maria</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dumontier</foaf:surname>
+                        <foaf:givenName>Michel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_240"/>
+        <dc:title>Concept Extraction Using Pointer–Generator Networks and Distant Supervision for Data Augmentation</dc:title>
+        <dcterms:abstract>Concept extraction is crucial for a number of downstream applications. However, surprisingly enough, straightforward single token/nominal chunk–concept alignment or dictionary lookup techniques such as DBpedia Spotlight still prevail. We propose a generic open domain-oriented extractive model that is based on distant supervision of a pointer–generator network leveraging bidirectional LSTMs and a copy mechanism and that is able to cope with the out-of-vocabulary phenomenon. The model has been trained on a large annotated corpus compiled specifically for this task from 250K Wikipedia pages, and tested on regular pages, where the pointers to other pages are considered as ground truth concepts. The outcome of the experiments shows that our model significantly outperforms standard techniques and, when used on top of DBpedia Spotlight, further improves its performance. The experiments furthermore show that the model can be readily ported to other datasets on which it equally achieves a state-of-the-art performance.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <bib:pages>120-135</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_240">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>已提交版本</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://zenodo.org/records/4529274/files/2008.11295.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 05:34:55</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2202.04876">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jain</foaf:surname>
+                        <foaf:givenName>Devansh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Anke</foaf:surname>
+                        <foaf:givenName>Luis Espinosa</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_242"/>
+        <link:link rdf:resource="#item_243"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Artificial Intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Distilling Hypernymy Relations from Language Models: On the Effectiveness of Zero-Shot Taxonomy Induction</dc:title>
+        <dcterms:abstract>In this paper, we analyze zero-shot taxonomy learning methods which are based on distilling knowledge from language models via prompting and sentence scoring. We show that, despite their simplicity, these methods outperform some supervised strategies and are competitive with the current state-of-the-art under adequate conditions. We also show that statistical and linguistic properties of prompts dictate downstream performance.</dcterms:abstract>
+        <dc:date>2022-02-10</dc:date>
+        <z:shortTitle>Distilling Hypernymy Relations from Language Models</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2202.04876</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 05:54:11</dcterms:dateSubmitted>
+        <dc:description>arXiv:2202.04876 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2202.04876</dc:identifier>
+        <prism:number>arXiv:2202.04876</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_242">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2202.04876.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 05:54:15</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_243">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2202.04876</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 05:54:22</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2105.04949">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ushio</foaf:surname>
+                        <foaf:givenName>Asahi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Espinosa-Anke</foaf:surname>
+                        <foaf:givenName>Luis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schockaert</foaf:surname>
+                        <foaf:givenName>Steven</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Camacho-Collados</foaf:surname>
+                        <foaf:givenName>Jose</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_246"/>
+        <link:link rdf:resource="#item_247"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>BERT is to NLP what AlexNet is to CV: Can Pre-Trained Language Models Identify Analogies?</dc:title>
+        <dcterms:abstract>Analogies play a central role in human commonsense reasoning. The ability to recognize analogies such as &quot;eye is to seeing what ear is to hearing&quot;, sometimes referred to as analogical proportions, shape how we structure knowledge and understand language. Surprisingly, however, the task of identifying such analogies has not yet received much attention in the language model era. In this paper, we analyze the capabilities of transformer-based language models on this unsupervised task, using benchmarks obtained from educational settings, as well as more commonly used datasets. We find that off-the-shelf language models can identify analogies to a certain extent, but struggle with abstract and complex relations, and results are highly sensitive to model architecture and hyperparameters. Overall the best results were obtained with GPT-2 and RoBERTa, while configurations using BERT were not able to outperform word embedding models. Our results raise important questions for future work about how, and to what extent, pre-trained language models capture knowledge about abstract semantic relations.</dcterms:abstract>
+        <dc:date>2022-09-09</dc:date>
+        <z:shortTitle>BERT is to NLP what AlexNet is to CV</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2105.04949</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 05:57:02</dcterms:dateSubmitted>
+        <dc:description>arXiv:2105.04949 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2105.04949</dc:identifier>
+        <prism:number>arXiv:2105.04949</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_246">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2105.04949.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 05:57:05</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_247">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2105.04949</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-27 05:57:11</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+</rdf:RDF>
